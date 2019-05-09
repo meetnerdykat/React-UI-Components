@@ -7,9 +7,11 @@ export class HeaderTitle extends Component {
     return (
       <div>
         <h4 className="pr-3 d-inline">Lambda School</h4>
-        <Moment format="MM/DD/YYYY">
-                2019-05-09T12:59-0500
-            </Moment>
+        <h6 className="text-muted d-inline">@LambdaSchool</h6>
+        <small>
+          {' '}
+          <Moment className="ml-2 text-muted" format="MMMM DD" />
+        </small>
       </div>
     );
   }
