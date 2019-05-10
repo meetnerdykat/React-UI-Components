@@ -1,0 +1,16 @@
+.row {
+  font-size: 1.50em;
+}
+
+.zero {
+  font-size: 1.75em;
+  font-weight: 300;
+}
+
+.clear-word {
+  font-weight: 300;
+}
+
+.col-height {
+  height: 100px;
+}
