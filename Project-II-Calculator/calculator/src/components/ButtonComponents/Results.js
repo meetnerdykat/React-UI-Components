@@ -4,7 +4,7 @@ import './ButtonStyles.css';
 class Results extends Component {
   render() {
     return (
-      <div className="col-md-12 results">
+      <div className="col-md-12 border border-dark rounded results">
         {this.props.children}
       </div>
     );
