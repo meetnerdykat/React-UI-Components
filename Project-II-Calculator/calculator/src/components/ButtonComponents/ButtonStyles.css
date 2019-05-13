@@ -7,8 +7,7 @@
 /* Results Bar Style */
 .results {
   display: flex;
-  height: 3.25em;
-  flex: 1;
+  height: 110px;
   background-color: #000;
   color: #fff;
   justify-content: flex-end;
@@ -16,4 +15,6 @@
   font-size: 32px;
 }
 
-
+.results {
+  font-size: 62px;
+}

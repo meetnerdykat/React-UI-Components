@@ -5,7 +5,7 @@ class Results extends Component {
   render() {
     return (
       <div className="col-md-12 results">
-        0
+        {this.props.children}
       </div>
     );
   }
