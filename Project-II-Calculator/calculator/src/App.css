@@ -1,7 +1,13 @@
 .App {
   font-family: 'Lato', sans-serif;
+  font-size: 2em;
 }
 
 .bg-danger {
   background-color: #bb1333 !important;
 }
+
+/* .row {
+  display: flex;
+  width: 100%;
+} */
