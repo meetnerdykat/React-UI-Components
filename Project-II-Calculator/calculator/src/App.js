@@ -29,6 +29,10 @@ class App extends Component {
     }
   };
 
+  clearResult = () => {
+    this.setState({ result: '' });
+  };
+
   render() {
     return (
       <div className="App m-5">
@@ -37,7 +41,7 @@ class App extends Component {
             <Results>{this.state.result}</Results>
           </div>
           <div className="row">
-            <Clear />
+            <Clear handleClear={this.clearResult}>clear</Clear>
             <Button>/</Button>
           </div>
           <div className="row">
