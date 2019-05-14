@@ -1,1 +1,21 @@
 /* All styles for your Card Components live here */
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.btn-outline-danger {
+  background-color: transparent;
+  border: 1px solid #bb1333;
+  color: #bb1333;
+}
+
+.btn-outline-danger:hover {
+  background-color: #bb1333;
+  color: #fff;
+}
+
+.small {
+  height: 90px;
+}

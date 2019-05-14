@@ -1,0 +1,24 @@
+/* Operator Buttons Style */
+.operator {
+  background-color: #62ffd8 !important;
+  color: #370064 !important;
+}
+
+.bg-my-color {
+  background-color: #ff4466;
+}
+
+/* Results Bar Style */
+.results {
+  display: flex;
+  height: 110px;
+  background-color: #370064;
+  color: #fff;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 32px;
+}
+
+.clear {
+  font-weight: 300;
+}
